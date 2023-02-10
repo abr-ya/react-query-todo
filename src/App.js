@@ -1,10 +1,5 @@
+import TodoList from "./features/todos/TodoList";
 
-function App() {
-  return (
-    <div className="App">
-      React Query Todo
-    </div>
-  );
-}
+const App = () => <TodoList />;
 
 export default App;
